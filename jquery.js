@@ -122,7 +122,7 @@ function startAction(){
 // generate a random fruit
 
 function chooseFruit(){
-    $("#fruit1").attr('src' , 'images/' + fruits[Math.round(8*Math.random())] +'.png');   
+    $("#fruit1").attr('src' , 'images/' + fruits[Math.round(9*Math.random())] +'.png');   
 }
 
 //Stop dropping fruits
